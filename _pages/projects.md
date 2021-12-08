@@ -5,7 +5,7 @@ permalink: /projects/
 description:
 ---
 
-{% for project in site.projects reversed%}
+{% for project in site.projects reversed %}
 
 {% if project.year %}
 #### {{ project.year }}

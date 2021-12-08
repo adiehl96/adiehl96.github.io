@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /misc/
-title: Miscellaneous
-description: Individual Work
+title: Teaching
+description: Teaching Assistant Positions @ Radboud University
 ---
 
 To be updated soon
