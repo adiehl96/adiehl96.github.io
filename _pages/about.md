@@ -16,5 +16,8 @@ social: true
 I am a final year master student in artificial intelligence with in the cognitive computing track at Radboud University.
 
 #### Interests
-Topics that intrigue me include, but are not limited to neuromorphic computing, distributed algorithms, reinforcement learning and computer vision.
-
+Topics that intrigue me include, but are not limited to 
+* neuromorphic computing
+* distributed algorithms
+* reinforcement learning
+* computer vision.
