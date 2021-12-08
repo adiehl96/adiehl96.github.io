@@ -5,7 +5,11 @@ permalink: /projects/
 description:
 ---
 
-{% for project in site.projects %}
+{% for project in site.projects reversed%}
+
+{% if project.year %}
+#### {{ project.year }}
+{% endif %}
 
 {% if project.redirect %}
 <div class="project">
@@ -33,7 +37,7 @@ description:
         <img class="thumbnail" src="{{ project.img | prepend: site.baseurl | prepend: site.url }}"/>
         {% else %}
         <div class="thumbnail blankbox"></div>
-        {% endif %}    
+        {% endif %}
         <span>
             <h1>{{ project.title }}</h1>
             <br/>
