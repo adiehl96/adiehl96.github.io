@@ -3,14 +3,13 @@ layout: page
 title: Projects
 permalink: /projects/
 description:
+years: [2021, 2020]
 ---
-
+{% for year in page.years %}
+#### {{ year }}
 {% for project in site.projects reversed %}
 
-{% if project.year %}
-#### {{ project.year }}
-{% endif %}
-
+{% if project.year == year %}
 {% if project.redirect %}
 <div class="project">
     <div class="thumbnail">
@@ -47,6 +46,7 @@ description:
     </div>
 </div>
 
+{% endif %}
 {% endif %}
 
 {% endfor %}
