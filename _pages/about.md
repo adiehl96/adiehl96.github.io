@@ -1,15 +1,12 @@
 ---
 layout: about
 permalink: /
-title: <strong>Aditi</strong> Singh
-description: <a href="https://www.iitk.ac.in/ee/">Department of Electrical Engineering, IIT Kanpur</a>. 
+title: Arne Diehl
+description: Master Student in Artificial Intelligence @ Radboud University
 
 profile:
   align: right
   image: prof_pic.jpg
-  address: >
-    <p>CV Lab, ACES Building</p>
-    <p>Indian Institute of Technology Kanpur</p>
 
 news: true
 social: true
