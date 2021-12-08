@@ -7,6 +7,7 @@ years: [2021, 2020]
 ---
 {% for year in page.years %}
 #### {{ year }}
+
 {% for project in site.projects reversed %}
 
 {% if project.year == year %}
@@ -48,5 +49,7 @@ years: [2021, 2020]
 
 {% endif %}
 {% endif %}
+
+{% endfor %}
 
 {% endfor %}
