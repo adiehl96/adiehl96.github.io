@@ -8,8 +8,7 @@ description: Teaching Assistant Positions @ Radboud University
 To be updated soon
 
 <div class="news">
-  <h2>news</h2>
-  {% if site.news  %}
+  {% if site.teachings  %}
     <table>
     {% assign news = site.news | reverse %}
     {% for item in news limit: site.news_limit %}
@@ -26,6 +25,6 @@ To be updated soon
     {% endfor %}
     </table>
   {% else %}
-    <p>No news so far...</p>
+    <p>No teaching positions so far...</p>
   {% endif %}
 </div>
