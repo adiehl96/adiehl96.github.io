@@ -44,6 +44,8 @@ table {
   }
   // 
   > tr:noBorder {
-    border: 0;
+    > td {
+        border: 0;
+      }
   }
 }
