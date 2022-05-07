@@ -11,7 +11,7 @@ years: [2021, 2020]
   {% assign teachings = site.teachings | reverse %}
   {% for item in teachings %}
     {% if item.year == year %}
-      <tr>
+      <tr class="noBorder">
         <td class="date">{{ item.date | date: "%b %-d, %Y" }}</td>
         <td class="announcement">
           {% if item.inline %}
