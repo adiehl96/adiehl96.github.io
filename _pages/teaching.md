@@ -3,15 +3,14 @@ layout: page
 permalink: /misc/
 title: Teaching
 description: Teaching Assistant Positions @ Radboud University
+years: [2021, 2020]
 ---
-
-To be updated soon
-
 <div class="news">
   {% if site.teachings  %}
+  {% for year in page.years %}
     <table>
-    {% assign news = site.news | reverse %}
-    {% for item in news limit: site.news_limit %}
+    {% assign teachings = site.teachings | reverse %}
+    {% for item in teachings %}
       <tr>
         <td class="date">{{ item.date | date: "%b %-d, %Y" }}</td>
         <td class="announcement">
@@ -24,6 +23,7 @@ To be updated soon
       </tr>
     {% endfor %}
     </table>
+  {% endfor %}
   {% else %}
     <p>No teaching positions so far...</p>
   {% endif %}
