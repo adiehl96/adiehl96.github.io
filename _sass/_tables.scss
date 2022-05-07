@@ -43,7 +43,7 @@ table {
     border-top: 2px solid #333;
   }
   // 
-  > tr:noBorder {
+  > tr.noBorder {
     > td {
         border: 0;
       }
