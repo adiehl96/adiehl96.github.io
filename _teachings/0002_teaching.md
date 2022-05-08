@@ -2,6 +2,6 @@
 layout: page
 coursename: "Neuromorphic Engineering"
 position: Teaching Assistant
-academicyear: 21-22
+academicyear: 2021-2022
 semester: 1
 ---
