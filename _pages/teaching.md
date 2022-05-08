@@ -3,7 +3,7 @@ layout: page
 permalink: /teaching/
 title: Teaching
 description: Teaching Positions @ Radboud University
-years: [2021, 2020]
+years: [2022, 2021]
 ---
 {% for year in page.years %}
 #### {{ year }}
