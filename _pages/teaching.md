@@ -11,7 +11,7 @@ years: [2021, 2020]
   {% assign teachings = site.teachings | reverse %}
   {% for item in teachings %}
   {{ item | inspect }}
-  {{ item.coursename }}
+  {{ item.year }}
     {% if item.year == year %}
       {{ item.position }}
       <tr class="noBorder">
