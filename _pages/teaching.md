@@ -7,16 +7,17 @@ academicyears: [2021-2022, 2020-2021]
 ---
 {% for academicyear in page.academicyears %}
 #### {{ academicyear }}
-  <table>
+<!--   <table> -->
   {% assign teachings = site.teachings | reverse %}
   {% for item in teachings %}
     {% if item.academicyear == academicyear %}
-      <tr class="noBorder">
+    {{ item.position }}, {{ item.coursename  }}, Semester {{ item.semester }}
+<!--       <tr class="noBorder">
         <td>{{ item.position }}</td>
         <td>{{ item.coursename  }}</td>
         <td>Semester {{ item.semester }}</td>
-      </tr>
+      </tr> -->
     {% endif %}
   {% endfor %}
-  </table>
+<!--   </table> -->
 {% endfor %}
