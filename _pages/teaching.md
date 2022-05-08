@@ -12,14 +12,9 @@ years: [2021, 2020]
   {% for item in teachings %}
     {% if item.year == year %}
       <tr class="noBorder">
-        <td>{{ item.date | date: "%b %-d, %Y" }}</td>
-        <td>
-          {% if item.inline %}
-            {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
-          {% else %}
-            <a class="news-title" href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a>
-          {% endif %}
-        </td>
+        <td>{{ item.position }}</td>
+        <td>{{ item.coursename  }}</td>
+        <td>Semester {{ item.semester }}</td>
       </tr>
     {% endif %}
   {% endfor %}
