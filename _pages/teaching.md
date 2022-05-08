@@ -3,14 +3,14 @@ layout: page
 permalink: /teaching/
 title: Teaching
 description: Teaching Positions @ Radboud University
-years: [21-22, 20-21]
+academicyears: [21-22, 20-21]
 ---
-{% for year in page.years %}
-#### {{ year }}
+{% for academicyear in page.academicyears %}
+#### {{ academicyear }}
   <table>
   {% assign teachings = site.teachings | reverse %}
   {% for item in teachings %}
-    {% if item.year == year %}
+    {% if item.academicyear == academicyear %}
       <tr class="noBorder">
         <td>{{ item.position }}</td>
         <td>{{ item.coursename  }}</td>
