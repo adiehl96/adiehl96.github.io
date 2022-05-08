@@ -12,9 +12,9 @@ years: [2021, 2020]
   {% for item in teachings %}
     {% if item.year == year %}
       <tr class="noBorder">
+        <td>Semester {{ item.semester }}</td>
         <td>{{ item.position }}</td>
         <td>{{ item.coursename  }}</td>
-        <td>Semester {{ item.semester }}</td>
       </tr>
     {% endif %}
   {% endfor %}
