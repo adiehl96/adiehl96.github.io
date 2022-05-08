@@ -12,8 +12,8 @@ years: [2021, 2020]
   {% for item in teachings %}
     {% if item.year == year %}
       <tr class="noBorder">
-        <td class="date">{{ item.date | date: "%b %-d, %Y" }}</td>
-        <td class="announcement">
+        <td>{{ item.date | date: "%b %-d, %Y" }}</td>
+        <td>
           {% if item.inline %}
             {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
           {% else %}
