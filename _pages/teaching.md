@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /misc/
+permalink: /teaching/
 title: Teaching
 description: Teaching Assistant Positions @ Radboud University
 years: [2021, 2020]
