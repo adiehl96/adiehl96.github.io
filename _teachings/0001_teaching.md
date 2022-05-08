@@ -1,9 +1,7 @@
 ---
 layout: page
-title: Iterative HAAR-DWT Based Efficient Image Steganography
-description: Under-Graduate Project
-img: /assets/img/iitk_logo.png
-year: 2021
+coursename: Artificial Intelligence: Representation & Interaction
+position: Teaching Assistant
+year: 20-21
+semester: 2
 ---
-
-To be updated soon.
