@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: Teaching
-description: Teaching Assistant Positions @ Radboud University
+description: Teaching Positions @ Radboud University
 years: [2021, 2020]
 ---
 {% for year in page.years %}
