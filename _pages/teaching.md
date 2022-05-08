@@ -10,6 +10,7 @@ years: [2021, 2020]
   <table>
   {% assign teachings = site.teachings | reverse %}
   {% for item in teachings %}
+  item.coursename
     {% if item.year == year %}
       <tr class="noBorder">
         <td>{{ item.position }}</td>
