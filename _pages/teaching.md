@@ -5,10 +5,10 @@ title: Teaching
 description: Teaching Positions @ Radboud University
 academicyears: [2022-2023, 2021-2022, 2020-2021]
 ---
+<table>
 {% for academicyear in page.academicyears %}
-#### {{ academicyear }}
+<!-- #### {{ academicyear }} -->
   {% assign teachings = site.teachings | reverse %}
-  <table>
     {% for item in teachings %}
       {% if item.academicyear == academicyear %}
         <tr class="noBorder">
@@ -18,5 +18,5 @@ academicyears: [2022-2023, 2021-2022, 2020-2021]
         </tr>
       {% endif %}
     {% endfor %}
-  </table>
 {% endfor %}
+</table>
