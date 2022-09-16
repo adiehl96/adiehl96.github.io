@@ -3,7 +3,7 @@ layout: page
 permalink: /teaching/
 title: Teaching
 description: Teaching Positions @ Radboud University
-academicyears: [2021-2022, 2020-2021]
+academicyears: [2022-2023, 2021-2022, 2020-2021]
 ---
 {% for academicyear in page.academicyears %}
 #### {{ academicyear }}
