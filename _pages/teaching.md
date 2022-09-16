@@ -15,7 +15,6 @@ academicyears: [2022-2023, 2021-2022, 2020-2021]
           <td>{{ item.academicyear }}</td>
           <td>{{ item.position }}</td>
           <td>{{ item.coursename  }}</td>
-          <td>Semester {{ item.semester }}</td>
         </tr>
       {% endif %}
     {% endfor %}
