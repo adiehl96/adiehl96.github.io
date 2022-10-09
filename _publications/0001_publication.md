@@ -8,4 +8,5 @@ doi: 10993/48924
 pdf: "Bosch2021.pdf"
 code: "https://github.com/a-t-0/spiking-neural-network-of-dominating-set-approximation"
 venue: "33rd Benelux Artificial Intelligence Conference 2021 (BNAIC2021)"
+bib: "Bosch2021.bib"
 ---
