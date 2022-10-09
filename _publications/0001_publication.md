@@ -1,7 +1,7 @@
 ---
 layout: page
+author: Bosch, V., Diehl, A., Smits, D., Toeter, A., Kwisthout, J.
 coursename: "Artificial Intelligence: Representation & Interaction"
-position: Teaching Assistant
-academicyear: 2020-2021
-semester: 2
+title: "Implementation of a Distributed Minimum Dominating Set Approximation Algorithm in a Spiking Neural Network"
+year: 2021
 ---
