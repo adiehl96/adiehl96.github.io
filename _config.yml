@@ -79,6 +79,9 @@ collections:
   teachings:
     output: true
     permalink: /teachings/:path/
+  publications:
+    output: true
+    permalink: /publications/:path/
 
 news_limit: 5
 
