@@ -8,9 +8,10 @@ years: [2022, 2021]
 
 <table>
 {% for year in page.years %}
+  lel
 <!-- #### {{ year }} -->
   {% assign publications = site.publications | reverse %}
-    {% for item in teachings %}
+    {% for item in publications %}
       {% if item.year == year %}
         <tr class="noBorder">
           <td>{{ item.author }}</td>
