@@ -13,7 +13,7 @@ years: [2022, 2021]
     {% for item in publications %}
       {% if item.year == year %}
         <tr class="noBorder">
-          <td>{{ item.author }} ({{ item.year }}). {{ item.title }}. doi: <a href="https://doi.org/{{ item.doi }}">{{ item.doi }}</a> | <a href="/assets/pdf/{{ item.pdf }}">pdf</a></td>
+          <td>{{ item.author }} ({{ item.year }}). {{ item.title }}. doi: <a href="https://doi.org/{{ item.doi }}">{{ item.doi }}</a> | <a href="/assets/pdf/{{ item.pdf }}">pdf</a> | <a href="{{ item.code }}">code</a> </td>
         </tr>
       {% endif %}
     {% endfor %}
