@@ -5,5 +5,5 @@ coursename: "Artificial Intelligence: Representation & Interaction"
 title: "Implementation of a Distributed Minimum Dominating Set Approximation Algorithm in a Spiking Neural Network"
 year: 2021
 doi: 10993/48924
-pdf: "/assets/pdf/Bosch2021.pdf"
+pdf: "Bosch2021.pdf"
 ---
