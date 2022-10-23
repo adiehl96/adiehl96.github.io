@@ -2,7 +2,7 @@
 layout: about
 permalink: /
 title: Arne Diehl
-description: Master Student in Artificial Intelligence @ Radboud University
+description: PhD Candidate @ Donders Institute & Junior Lecturer in Artificial Intelligence @ Radboud University
 
 profile:
   align: right
@@ -13,7 +13,7 @@ social: true
 ---
 #### Short Bio
 
-I am a final year master student in artificial intelligence with in the cognitive computing track at Radboud University.
+I hold a dual position of PhD Candidate and Junior Lecturer.
 
 #### Interests
 Topics that intrigue me include, but are not limited to:
