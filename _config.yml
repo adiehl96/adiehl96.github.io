@@ -24,6 +24,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # -----------------------------------------------------------------------------
 # Social integration
 # -----------------------------------------------------------------------------
+homepage_url: https://www.ru.nl/en/people/diehl-a
 github_username: adiehl96 # your GitHub user name
 twitter_username: diehl_arne # your Twitter handle
 linkedin_username: arne-diehl # your LinkedIn user name
