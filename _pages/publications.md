@@ -9,11 +9,11 @@ types: [conference, software]
 
 <table>
 {% for type in page.types %}
-  type
   {% for year in page.years %}
   <!-- #### {{ year }} -->
     {% assign publications = site.publications | reverse %}
       {% for item in publications %}
+        {{ item.type }} {{ item.year }}
         {% if item.type == conference %}
           {% if item.year == year %}
             <tr class="noBorder">
