@@ -9,6 +9,7 @@ types: [conference, software]
 
 <table>
 {% for type in page.types %}
+  type
   {% for year in page.years %}
   <!-- #### {{ year }} -->
     {% assign publications = site.publications | reverse %}
