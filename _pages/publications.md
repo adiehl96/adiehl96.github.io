@@ -14,7 +14,7 @@ types: [conference, software]
     {% assign publications = site.publications | reverse %}
       {% for item in publications %}
         {{ item.type }} {{ item.year }}
-        {% if item.type == conference %}
+        {% if item.type == type %}
           {% if item.year == year %}
             <tr class="noBorder">
               <td>{{ item.author }} ({{ item.year }}). {{ item.title }}. {{ item.venue }}. <a href="https://doi.org/{{ item.doi }}">publication</a> | <a href="/assets/pdf/{{ item.pdf }}">pdf</a> | <a href="{{ item.code }}">code</a> | <a href="/assets/pdf/{{ item.poster }}">poster</a> | <a href="/assets/bibtex/{{ item.bib }}">bib</a> </td>
