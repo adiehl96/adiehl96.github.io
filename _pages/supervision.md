@@ -6,7 +6,7 @@ description: Supervision Opportunities @ Radboud University
 academicyears: [2022-2023]
 ---
 #### Thesis Project on Neuromorphic Computing
-** Currently accepting students (Bachelor or Master) **</br>
+**Currently accepting students (Bachelor or Master)**<br>
 If you'd like to do your thesis project with me as a supervisor, feel free to reach out to me ([contact](https://www.ru.nl/en/people/diehl-a)).
 
 You might be interested in working on this project if you find some of the following things interesting:
