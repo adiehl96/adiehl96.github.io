@@ -3,7 +3,7 @@ layout: page
 title: Projects
 permalink: /projects/
 description: Chronological list of projects
-years: [2021, 2020]
+years: [2023]
 ---
 {% for year in page.years %}
 #### {{ year }}
