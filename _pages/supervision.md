@@ -5,7 +5,7 @@ title: Supervision
 description: Supervision Opportunities @ Radboud University
 academicyears: [2022-2023]
 ---
-#### Currently open for thesis supervision (Bachelor or Master)
+#### Currently accepting students (Bachelor or Master)
 If you'd like to do your thesis project with me as a supervisor, feel free to reach out to me ([contact](https://www.ru.nl/en/people/diehl-a)).
 
 #### Thesis Project on Neuromorphic Computing
