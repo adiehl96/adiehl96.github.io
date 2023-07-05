@@ -14,7 +14,7 @@ layout: default
 
 <ul class="post-list">
   {% for post in paginator.posts %}
-    {% assign postdate = date: '%Y' | plus: 0 %}
+    {% assign postdate = post.date | date: '%Y' | plus: 0 %}
     <script>console.log({{ postdate | json }});</script>
     {% if postdate > 2020 %}
       <li>
