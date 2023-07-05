@@ -1,15 +1,25 @@
 ---
 layout: post
-title: a post with math
-date: 2015-10-20 11:12:00-0400
-description: an example of a blog post with some math
+title: Before You Buy Texifier (Formerly Texpad)
+date: 2023-07-06 18:00:00-0400
+description: a review of Texifier aka Texpad
 ---
-This theme supports rendering beautiful math in inline and display modes using [KaTeX](https://khan.github.io/KaTeX/) engine. You just need to surround your math expression with `$$`, like `$$ E = mc^2 $$`. If you leave it inside a paragraph, it will produce an inline expression, just like $$ E = mc^2 $$.
+Before you buy Texifier (formerly Texpad), you should be aware of some of its limitations. In the following I'm listing some of the drawbacks that are dearest to me.
 
-To use display mode, again surround your expression with `$$` and place it as a separate paragraph. Here is an example:
+## No Biber Support, No APA Citations!
+As of right now, Texifier is not compatible with the biber backend. This means that you cannot use the only currently (2023) maintained APA citation style `biblatex-apa`. That is because biblatex-apa requires the biber backend and has done so for the past 6 years. The only available backend / package / style combinations are the following:
+* [thebibliography](https://tex.stackexchange.com/a/451303) - none - [apa](https://www.ctan.org/pkg/apabst)
+* Bibtex - apacite - [apacite](https://www.ctan.org/pkg/apacite)
+* Bibtex - natbib - [apalike](https://ctan.org/tex-archive/biblio/bibtex/base)
+* Bibtex - natbib - [apalike2](https://ctan.org/pkg/apalike2)
 
-$$
-\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
-$$
+If you're wondering what the difference between a backend, a package and a style are, check out [this answer](https://tex.stackexchange.com/a/263800) on stackexchange. The reason why the packages above won't work nowadays is because they are largely obsolete, as they have incompatibilities with current packages (apacite and hyperref is a good example, see [this](http://codydunne.blogspot.com/2011/03/better-apa-style-working-around.html)) or don't support fields that have become relevant in modern times (version field for software publications is missing in all but biblatex-apa).
 
-Note that [KaTeX](https://khan.github.io/KaTeX/) is work in progress, so it does not support the full range of math expressions as, say, [MathJax](https://www.mathjax.org/). Yet, it is [blazing fast](http://www.intmath.com/cg5/katex-mathjax-comparison.php).
+## Broken Hyperref Compatibility
+Basically, URL's are not rendered correctly. Long URL's that strech over multiple lines are clickable, but contain only that part of the url that is on one line, effectively breaking clickable links. A detailed description of the problem can be found [here](https://tex.stackexchange.com/questions/690385).
+
+## Outdated Packages
+Finally, Texifier bundles packages themselves, with no easy way to see the version of a single package that was downloaded. There is also no easy way to update a single package. They do describe an alternative way to install packages, but you can't do it through the GUI, which shows a lack of interest on the developers side to make this process easy for the user. (Downloading the index from ctan and displaying a list of packages with download buttons next to them and the currently installed version shouldn't be a daunting task, you'd think.)
+
+## Limited Support, Not Open Source
+If you'd still like to try the software and fix the bad parts yourself, you're out of luck, as Texifier is proprietary software, which means that it will become abandonware, as soon as the project becomes unprofitable. Currently the support is very limited and updates happen infrequently. They have plans to eventually support the biber backend, but that updated seems to be scheduled sometime around judgement day.
