@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Before You Buy Texifier (Formerly Texpad)
-date: 2023-7-6 18:00:00
+date: 2023-07-06 18:00:00
 description: a review of Texifier aka Texpad
 ---
 
