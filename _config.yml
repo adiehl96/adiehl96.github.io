@@ -83,6 +83,9 @@ collections:
   publications:
     output: true
     permalink: /publications/:path/
+  shortlinks:
+    output: true
+    permalink: /:path/
 
 news_limit: 5
 
