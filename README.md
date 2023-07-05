@@ -6,7 +6,8 @@ A simple and clean [Jekyll](https://jekyllrb.com/) theme for academics.
 [Matteo Poggi's website](https://mattpoggi.github.io/projects/)
 
 ## Website Building Information
-[Jekyll Operators](https://shopify.github.io/liquid/basics/operators/)
+[Debugging in Liquid](https://gist.github.com/veganista/8aa555a1a9f313642db076b823ce7cb1) <br>
+[Liquid Operators](https://shopify.github.io/liquid/basics/operators/)
 
 ## Preview
 [![Screenshot](https://alshedivat.github.io/al-folio/assets/img/al-folio-preview.png)](https://alshedivat.github.io/al-folio/)
