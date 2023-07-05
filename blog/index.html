@@ -15,7 +15,8 @@ layout: default
 <ul class="post-list">
   {% for post in paginator.posts %}
     {% assign postdate = post.date | date: '%Y' | plus: 0 %}
-    <script>console.log({{ postdate | json }});</script>
+    {% assign postdatestring = post.date | date: '%Y' %}
+    <script>console.log({{ postdatestring | json }});</script>
     {% if postdate > 2020 %}
       <li>
         <h2><a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
