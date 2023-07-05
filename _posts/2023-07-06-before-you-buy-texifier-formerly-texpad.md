@@ -13,7 +13,7 @@ As of right now, Texifier is not compatible with the biber backend. This means t
 * Bibtex - natbib - [apalike](https://ctan.org/tex-archive/biblio/bibtex/base)
 * Bibtex - natbib - [apalike2](https://ctan.org/pkg/apalike2)
 
-If you're wondering what the difference between a backend, a package and a style are, check out [this answer](https://tex.stackexchange.com/a/263800) on stackexchange. The reason why the packages above won't work nowadays is because they are largely obsolete, as they have incompatibilities with current packages (apacite and hyperref is a good example, see [this](http://codydunne.blogspot.com/2011/03/better-apa-style-working-around.html)) or don't support fields that have become relevant in modern times (version field for software publications is missing in all but biblatex-apa).
+If you're wondering what the difference between a backend, a package and a style is, check out [this answer](https://tex.stackexchange.com/a/263800) on stackexchange. The reason why the packages above won't work nowadays is because they are largely obsolete, as they have incompatibilities with current packages (apacite and hyperref is a good example, see [this](http://codydunne.blogspot.com/2011/03/better-apa-style-working-around.html)) or don't support fields that have become relevant in modern times (version field for software publications is missing in all but biblatex-apa).
 
 ## Broken Hyperref Compatibility
 Basically, URL's are not rendered correctly. Long URL's that strech over multiple lines are clickable, but contain only that part of the url that is on one line, effectively breaking clickable links. A detailed description of the problem can be found [here](https://tex.stackexchange.com/questions/690385).
