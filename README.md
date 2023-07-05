@@ -1,20 +1,15 @@
 # al-folio
-
-[![build status](https://travis-ci.org/alshedivat/al-folio.svg?branch=master)](https://travis-ci.org/alshedivat/al-folio)
-[![demo](https://img.shields.io/badge/theme-demo-brightgreen.svg)](https://alshedivat.github.io/al-folio/)
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/alshedivat/al-folio/blob/master/LICENSE)
-[![gitter](https://badges.gitter.im/alshedivat/al-folio.svg)](https://gitter.im/alshedivat/al-folio?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-
 A simple and clean [Jekyll](https://jekyllrb.com/) theme for academics.
 
 ## Inspiration
-[Aditi Singh's website](https://aditisgh.github.io/)
+[Aditi Singh's website](https://aditisgh.github.io/) <br>
 [Matteo Poggi's website](https://mattpoggi.github.io/projects/)
 
 ## Website Building Information
 [Jekyll Operators](https://shopify.github.io/liquid/basics/operators/)
 
-[![Screenshot](assets/img/full-screenshot.png)](https://alshedivat.github.io/al-folio/)
+## Preview
+[![Screenshot](https://alshedivat.github.io/al-folio/assets/img/al-folio-preview.png)](https://alshedivat.github.io/al-folio/)
 
 Originally, **al-folio** was based on the [\*folio theme](https://github.com/bogoli/-folio) (published by [Lia Bogoev](http://liabogoev.com) and under the MIT license).
 Since then, it got a full re-write of the styles and many additional cool features.
