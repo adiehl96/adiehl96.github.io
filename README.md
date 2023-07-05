@@ -11,6 +11,9 @@ A simple and clean [Jekyll](https://jekyllrb.com/) theme for academics.
 [Aditi Singh's website](https://aditisgh.github.io/)
 [Matteo Poggi's website](https://mattpoggi.github.io/projects/)
 
+## Website Building Information
+[Jekyll Operators](https://shopify.github.io/liquid/basics/operators/)
+
 [![Screenshot](assets/img/full-screenshot.png)](https://alshedivat.github.io/al-folio/)
 
 Originally, **al-folio** was based on the [\*folio theme](https://github.com/bogoli/-folio) (published by [Lia Bogoev](http://liabogoev.com) and under the MIT license).
