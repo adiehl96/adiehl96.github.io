@@ -4,7 +4,7 @@ title: before you buy texifier aka texpad
 date: 2023-07-05 18:00:00
 description: a review of texifier aka texpad
 ---
-Before you buy Texifier (formerly Texpad), you should be aware of some of its limitations. In the following I'm listing some of the drawbacks that are dearest to me.
+Before you buy Texifier (formerly Texpad), you should be aware of some of its limitations. The issues adressed in this post are present in Version 1.9.20 (760) with TexpadTeX (based on TeX Version 3.14159265 with e-TeX extensions) running in extended mode embedded in Texpad 760 (preloaded format=latex 2021.3.29). In the following I'm listing some of the drawbacks that are dearest to me.
 
 ## No Biber Support, No APA Citations!
 As of right now, Texifier is not compatible with the biber backend. This means that you cannot use the only currently (2023) maintained APA citation style `biblatex-apa`. That is because biblatex-apa requires the biber backend and has done so for the past 6 years. The only available backend / package / style combinations are the following:
