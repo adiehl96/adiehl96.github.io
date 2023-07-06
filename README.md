@@ -10,7 +10,7 @@ A simple and clean [Jekyll](https://jekyllrb.com/) theme for academics.
 [Liquid Operators](https://shopify.github.io/liquid/basics/operators/) <br>
 [Type Conversion in Liquid](https://stackoverflow.com/questions/27198710/convert-string-to-integer-in-shopify-liquid) <br>
 [How to redirect users on github pages using jekyll](https://superdevresources.com/redirects-jekyll-github-pages/)
-
+[Common problems when creating new blog posts](https://stackoverflow.com/a/30625045)
 ## Preview
 [![Screenshot](https://alshedivat.github.io/al-folio/assets/img/al-folio-preview.png)](https://alshedivat.github.io/al-folio/)
 
