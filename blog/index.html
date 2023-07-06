@@ -15,7 +15,7 @@ layout: default
 <ul class="post-list">
   {% for post in paginator.posts %}
     {% assign postdate = post.date | date: '%Y' | plus: 0 %}
-    <script>console.log(Console Log:);</script>
+    <script>console.log("Console Log:");</script>
     <script>console.log({{ postdate }});</script>
     {% assign cutoff = 2020 | plus: 0 %}
     <script>console.log({{ cutoff }});</script>
