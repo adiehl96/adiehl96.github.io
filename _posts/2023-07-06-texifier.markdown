@@ -1,7 +1,7 @@
 ---
 layout: post
 title: before you buy texifier aka texpad
-date: 2023-07-06 18:00:00
+date: 2023-07-05 18:00:00
 description: a review of texifier aka texpad
 ---
 Before you buy Texifier (formerly Texpad), you should be aware of some of its limitations. In the following I'm listing some of the drawbacks that are dearest to me.
