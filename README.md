@@ -4,6 +4,7 @@ A simple and clean [Jekyll](https://jekyllrb.com/) theme for academics.
 ## Inspiration
 [Aditi Singh's website](https://aditisgh.github.io/) <br>
 [Matteo Poggi's website](https://mattpoggi.github.io/projects/)
+[Another Beautiful Website](https://www.rafa.ee/articles/resolve-syncthing-conflicts-using-three-way-merge/)
 
 ## Website Building Information
 [Debugging in Liquid](https://gist.github.com/veganista/8aa555a1a9f313642db076b823ce7cb1) <br>
