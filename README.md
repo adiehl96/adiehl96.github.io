@@ -3,7 +3,8 @@ A simple and clean [Jekyll](https://jekyllrb.com/) theme for academics.
 
 ## Inspiration
 [Aditi Singh's website](https://aditisgh.github.io/) <br>
-[Matteo Poggi's website](https://mattpoggi.github.io/projects/)
+[Matteo Poggi's website](https://mattpoggi.github.io/projects/) <br>
+[Phil Newton's Blog](https://www.philnewton.net/blog/facile-things/)
 [Another Beautiful Website](https://www.rafa.ee/articles/resolve-syncthing-conflicts-using-three-way-merge/)
 
 ## Website Building Information
