@@ -12,9 +12,11 @@ types: [conference, journal, software]
   {% if type == "conference" %}
     <b>Conference Publications</b>
   {% endif %}
+    <br>
   {% if type == "journal" %}
     <b>Journal Publications</b>
   {% endif %}
+    <br>
   {% if type == "software" %}
     <b>Open Source Software</b>
   {% endif %}
