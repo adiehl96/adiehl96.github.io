@@ -7,4 +7,5 @@ year: 2026
 pdf: "Kwisthout2026.pdf"
 journal: "Neuromorphic Computing and Engineering"
 bib: "Kwisthout2026.bib"
+doi: 10.1088/2634-4386/ae2cc1
 ---
