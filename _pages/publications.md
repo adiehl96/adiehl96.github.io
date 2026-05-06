@@ -12,6 +12,9 @@ types: [conference, journal, software]
   {% if type == "conference" %}
     <b>Conference Publications</b>
   {% endif %}
+  {% if type == "journal" %}
+    <b>Journal Publications</b>
+  {% endif %}
   {% if type == "software" %}
     <b>Open Source Software</b>
   {% endif %}
@@ -24,6 +27,11 @@ types: [conference, journal, software]
             {% if type == "conference" %}
               <tr class="noBorder">
                 <td>{{ item.author }} ({{ item.year }}). <i>{{ item.title }}</i>. {{ item.venue }}. <a href="https://doi.org/{{ item.doi }}">publication</a> | <a href="/assets/pdf/{{ item.pdf }}">pdf</a> | <a href="{{ item.code }}">code</a> | <a href="/assets/pdf/{{ item.poster }}">poster</a> | <a href="/assets/bibtex/{{ item.bib }}">bib</a> </td>
+              </tr>
+            {% endif %}
+            {% if type == "journal" %}
+              <tr class="noBorder">
+                <td>{{ item.author }} ({{ item.year }}). <i>{{ item.title }}</i>. {{ item.journal }}. <a href="https://doi.org/{{ item.doi }}">publication</a> | <a href="/assets/pdf/{{ item.pdf }}">pdf</a> | <a href="{{ item.code }}">code</a> | <a href="/assets/pdf/{{ item.poster }}">poster</a> | <a href="/assets/bibtex/{{ item.bib }}">bib</a> </td>
               </tr>
             {% endif %}
             {% if type == "software" %}
