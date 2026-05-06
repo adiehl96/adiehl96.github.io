@@ -3,8 +3,8 @@ layout: page
 permalink: /publications/
 title: Publications
 description:
-years: [2023, 2022, 2021, 2019]
-types: [conference, software]
+years: [2026, 2025, 2024, 2023, 2022, 2021, 2019]
+types: [conference, journal, software]
 ---
 
 {% for type in page.types %}
